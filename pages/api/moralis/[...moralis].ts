@@ -1,6 +1,6 @@
 import { MoralisNextApi } from '@moralisweb3/next';
 
-const MORALIS_API_KEY = 'YOUR_KEY';
+const MORALIS_API_KEY = 'YOUR_KEY'; //STEP 1 INSERT YOUR API KEY
 const NEXTAUTH_URL = 'http://localhost:3000';
 export default MoralisNextApi({
   apiKey: MORALIS_API_KEY,

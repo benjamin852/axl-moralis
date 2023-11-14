@@ -21,7 +21,6 @@ const ConnectButton = () => {
     try {
       const { account, chain } = await connectAsync();
 
-      console.log(process.env.MORALIS_API_KEY, 'env');
       const challenge = await requestChallengeAsync({ address: account, chainId: chain.id });
 
       if (!challenge) {
