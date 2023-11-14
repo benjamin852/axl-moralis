@@ -12,7 +12,7 @@ NEXTAUTH_SECRET=<YOUR_NEXT_KEY>
 NEXTAUTH_URL='http://localhost:3000'
 
 
-The axelr related services are available in the `ERC20Balances.tsx` template. Users should be able to seemlessly transfer Axelar related ERC20 tokens that they hold between two blockchains. For example, a uer can transfer their aUSDC from Polygon to Ethereum to several (or a single) addresses. After sending the token the user can click through a button to take them to Axelarscan to view the ongoing transaction.
+The Axelar related services are available in the `ERC20Balances.tsx` template. Users should be able to seemlessly transfer Axelar related ERC20 tokens that they hold between two blockchains. For example, a uer can transfer their aUSDC from Polygon to Ethereum to several (or a single) addresses. After sending the token the user can click through a button to take them to Axelarscan to view the ongoing transaction.
 
 Run:
 `npm run dev`
